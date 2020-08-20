@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    width: 100%;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 1080px;
+    position: relative;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top:35px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 5px;
+    margin-top: 190px;
+}
+
+#clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    width: 42%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    font-size: 65px;
+    color: black;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 300px;
+    border: solid black;
+}
